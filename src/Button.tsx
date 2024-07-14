@@ -4,7 +4,7 @@ function Button() {
 
     return (
         <>
-         <div className="main_button main_buttonHover">Learn More</div>
+         <div className="main_button main_buttonHover">Learn more</div>
         </>
     )
 }

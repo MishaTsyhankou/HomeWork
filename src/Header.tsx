@@ -12,7 +12,9 @@ function Header() {
        <div className='nav-block'>
        <Navigation/>
        </div>
+       <div className='header-block'>
        <HeaderContent />
+       </div>
       </div>
       </>
     )
