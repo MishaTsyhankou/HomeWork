@@ -1,5 +1,9 @@
 import './App.scss'
-import Header from './Header'
+import Footer from './Footer/Footer'
+import Header from './Header/Header'
+import Article from './Main/Article'
+import Main from './Main/Main'
+import Offers from './Main/Offers'
 
 function App() {
 
@@ -7,6 +11,10 @@ function App() {
     <>
       <div className='mainWrapper'>
         <Header />
+        <Offers/>
+        <Main />
+        <Article />
+        <Footer />
       </div>
     </>
   )

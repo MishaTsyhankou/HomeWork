@@ -1,5 +1,5 @@
-import './App.scss'
-import { Basket } from './assets/basket'
+import '../App.css'
+import { Basket } from '../assets/basket'
 import Logo from './Logo'
 //import MenuBar from './MenuBar'
 

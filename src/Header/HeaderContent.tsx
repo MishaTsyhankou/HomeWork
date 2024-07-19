@@ -1,6 +1,6 @@
-import './App.scss'
-import { Earth } from './assets/earth'
-import Button from './Button'
+import '../App.css'
+import { Earth } from '../assets/earth'
+import Button from '../Button'
 
 
 
@@ -20,7 +20,7 @@ function HeaderContent() {
                     </div>
                 </div>
                 <div className='headerContent_block_button'>
-                    <Button />
+                    <Button className ='main_button main_buttonHover'/>
                 </div>
 
             </div>

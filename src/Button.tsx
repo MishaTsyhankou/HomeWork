@@ -1,12 +1,13 @@
 import './App.scss'
 
-function Button() {
+function Button({className}: {className: string}) {
 
     return (
         <>
-         <div className="main_button main_buttonHover">Learn more</div>
+         <div className={className}>Learn more</div>
         </>
     )
 }
 
 export default Button
+

@@ -1,6 +1,7 @@
-import './App.scss'
+import '../App.css'
 import HeaderContent from './HeaderContent'
 import Navigation from './Navigation'
+
 
 
 function Header() {
